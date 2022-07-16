@@ -1,0 +1,28 @@
+@import '../base/variables';
+
+.btn {
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .5s ease;
+    &:hover {
+        transform: translateY(-3px)
+    }
+    &:active {
+        transform: translate(0)
+    }
+    &--mini {
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        background: $secondary-color;
+        padding: 15px 48px;
+    }
+
+    &--large {
+        padding: 15px 75px;
+        background: $secondary-color;
+    }
+}

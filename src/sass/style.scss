@@ -1,0 +1,103 @@
+@import 'libs/fonts';
+@import 'libs/reset';
+@import 'base/variables';
+
+* {
+    font-family: 'Gilroy', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6;
+
+    &--light {
+        letter-spacing: 0.05em;
+        color: $primary-color;
+    }
+
+    &--dark {
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+
+    &--white {
+        color: white;
+        letter-spacing: 0.05em;
+    }
+}
+
+.title {
+    letter-spacing: 0.04em;
+    color: $primary-color;
+    font-family: 'Galien';
+
+    &--large {
+        font-size: 64px;
+        line-height: 74px;
+    }
+
+    &--small {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    &--extra--small {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    &-main {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+
+        &--blue2 {
+            color: #316099;
+        }
+
+        &--blue1 {
+            color: $primary-color;
+        }
+
+        &--white {
+            color: white;
+        }
+
+        &--large {
+            letter-spacing: 0.05em;
+            font-size: 36px;
+            line-height: 46px;
+            font-weight: 600;
+        }
+
+        &--mini {
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.05em;
+            font-weight: 700;
+        }
+    }
+}
+
+
+
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/whatwedo';
+@import 'blocks/projects';
+@import 'blocks/clients';
+@import 'blocks/footer';
+@import 'base/media';
