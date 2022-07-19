@@ -1,0 +1,26 @@
+.info {
+    transform: translateY(110px);
+    padding: 50px 0;
+    color: #FFFFFF;
+    background: url('../img/info-bg.svg') center center / cover no-repeat;
+
+    &__wrapper {
+        width: 780px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 44px;
+        line-height: 74px;
+        letter-spacing: 0.04em;
+    }
+
+    &__descr {
+        margin-top: 16px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        color: rgba(255, 255, 255, 0.4);
+    }
+}
